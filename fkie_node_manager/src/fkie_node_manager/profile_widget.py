@@ -219,7 +219,7 @@ class ProfileWidget(QDockWidget):
                             self._current_profile[rmuri].add('/node_manager_daemon')
                         try:
                             do_start = []
-                            do_not_stop = {'/rosout', rospy.get_name(), '/node_manager', '/master_discovery', '/master_sync', '*default_cfg', '/zeroconf', '/node_manager_daemon'}
+                            do_not_stop = {'/rosout', rospy.get_name(), '/node_manager', '/master_discovery', '/master_sync', '*default_cfg', '/zeroconf', '/node_manager_daemon','/xbotcore','/xbot_gui','/xbot2_daemon'}
                             configs = master_dict['configs']
                             conf_set = set()
                             for cfg_name, cmdict in configs.items():

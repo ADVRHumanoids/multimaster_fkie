@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.0.2)
+project(multimaster_fkie)
+
+add_subdirectory(fkie_multimaster_msgs)
+add_subdirectory(fkie_node_manager_daemon)
+add_subdirectory(fkie_master_discovery)
+add_subdirectory(fkie_master_sync)
+add_subdirectory(fkie_node_manager)
