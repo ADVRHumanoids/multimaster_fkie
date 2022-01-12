@@ -1,3 +1,5 @@
+python3 -m venv --system-site-packages /home/user/multimaster_fkie_env/
+
 sudo python -m pip uninstall protobuf
 sudo python -m pip install protobuf==3.17.0
 
@@ -5,3 +7,17 @@ sudo python -m pip install grpcio-tools
 
 sudo python -m pip install --upgrade pip
 sudo python -m pip install ruamel.yaml
+
+virtual ennviroment
+
+pip install wheel
+pip install -U rosdep rosinstall_generator wstool rosinstall six vcstools
+pip install empy
+pip install defusedxml
+pip install psutil
+pip install PySide2
+pip install Crypto
+pip install pycryptodome
+pip install netifaces
+pip install pyqt5
+pip install pyqtwebengine
